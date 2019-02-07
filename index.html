@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.21.0/system.js"></script>
+    <title>System JS module</title>
+</head>
+<body>
+    <h1>System JS Modules</h1>
+    <script>
+        //config
+        SystemJS.config({ 
+            packages: { 
+                "js": { 
+                    "main": "principal", 
+                    "defaultExtension": "js" 
+                } 
+            } 
+        });
+        //importar 
+        System.import("js");
+    </script>
+</body>
+</html>
