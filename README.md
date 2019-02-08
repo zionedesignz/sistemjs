@@ -1,2 +1,2 @@
 # sistemjs
-Uso de sistem.js para modularizar código. Importar / esportar clases Javascript.
+Uso de sistem.js para modularizar código. Importar / exportar clases Javascript.
